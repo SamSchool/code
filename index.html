@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Monopoly Simulator</title>
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,600,700,800" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="sim.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Monopoly Simulator</h1>
+            <button class="onlyPropBtn">Only Properties</button>
+            <button class="allBtn">All Spaces</button>
+            <h3>Odds of Finishing on Space</h3>
+            <div class="ranks"></div>            
+            <div class="other-info">   
+                <h3>Input # of Trials</h3>             
+                <input class="trials-input" type="text">
+                <button class="refresh">Simulate</button>
+                <div class="best-groups">
+                </div>
+            </div>
+        </header>
+        <div class="visual"></div>
+    </div>    
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+    <script src="sim.js"></script>
+</body>
+</html>
